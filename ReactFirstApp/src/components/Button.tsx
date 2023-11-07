@@ -13,7 +13,6 @@ const Button = ({ text, color = "secondary", onClickedButton }: AlertProps) => {
       className={"btn btn-" + color}
       onClick={() => {
         onClickedButton(color);
-        color = "primary";
       }}
     >
       {text}
