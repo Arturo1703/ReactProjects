@@ -49,8 +49,8 @@
     line-height: 1.2;
 }
 
-skills__bar,
-skills__percentage {
+.skills__bar,
+.skills__percentage {
     height: 7px;
     border-radius: 0.25rem
 }
@@ -61,10 +61,44 @@ skills__percentage {
 
 .skills__percentage {
     display: block;
-    background-color: var(--fist-color);
 }
 
 .development{
-    width: 90%;
+    width: 70%;
     background-color: rgb(255, 209, 92);
+}
+
+.design{
+    width: 50%;
+    background-color: rgb(255, 76, 96 );
+}
+
+.communication{
+    width: 90%;
+    background-color: rgb(108, 108, 299);
+}
+
+.involvement{
+    width: 100%;
+    background-color: rgb(68, 231, 182);
+}
+
+.about__boxes {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.about__box{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon{
+    font-size: var(--h1-font-size);
+    color: #dedeea;
+}
+
+.about__title {
+    font-size: 1.875rem;
 }

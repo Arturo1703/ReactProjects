@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
+import AboutBox from "./AboutBox";
 
 const about = () => {
   return (
@@ -61,12 +62,14 @@ const about = () => {
                 <span className="skills__number">100%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage involvment"></span>
+                <span className="skills__percentage involvement"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <AboutBox />
     </section>
   );
 };
