@@ -6,24 +6,24 @@ const AboutBox = () => {
       <div className="about__box">
         <i className="about__icon icon-fire"></i>
         <div>
-          <h3 className="about__title">198</h3>
-          <span className="bout__subtitle">Project Completed</span>
+          <h3 className="about__title">12</h3>
+          <span className="bout__subtitle">Projects Completed</span>
         </div>
       </div>
 
       <div className="about__box">
         <i className="about__icon"></i>
         <div>
-          <h3 className="about__title">5670</h3>
-          <span className="bout__subtitle icon-cup">Cup of coffee</span>
+          <h3 className="about__title">62</h3>
+          <span className="bout__subtitle icon-cup">Cups of coffee</span>
         </div>
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-people"></i>
+        <i className="about__icon icon-clock"></i>
         <div>
-          <h3 className="about__title">427</h3>
-          <span className="bout__subtitle">Satisfied Clients</span>
+          <h3 className="about__title">97</h3>
+          <span className="bout__subtitle">Hours Debugging Mistakes</span>
         </div>
       </div>
     </div>
