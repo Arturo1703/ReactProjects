@@ -17,17 +17,17 @@ const portfolio = () => {
         <span className="work__item" onClick={() => setItems(Menu)}>
           Everything
         </span>
-        <span className="work__item" onClick={() => filterItem("Creative")}>
-          Creative
+        <span className="work__item" onClick={() => filterItem("Mobile App Development")}>
+          Mobile App Development
         </span>
-        <span className="work__item" onClick={() => filterItem("Art")}>
-          Art
+        <span className="work__item" onClick={() => filterItem("Web Development")}>
+          Web Development
         </span>
-        <span className="work__item" onClick={() => filterItem("Design")}>
-          Design
+        <span className="work__item" onClick={() => filterItem("Algorithm solving/ Software Development")}>
+          Algorithm solving/ Software Development
         </span>
-        <span className="work__item" onClick={() => filterItem("BRanding")}>
-          Branding
+        <span className="work__item" onClick={() => filterItem("Videogames")}>
+          Videogames
         </span>
       </div>
 
