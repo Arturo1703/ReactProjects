@@ -37,14 +37,14 @@ const Menu = [
     id: 5,
     image: Work5,
     title: "Gamers Den",
-    category: "Web Page",
+    category: "Web Development",
   },
     ,
   {
     id: 5,
     image: Work5,
     title: "React Tutorials",
-    category: "Web Page",
+    category: "Web Development",
   },
   ,
   {
