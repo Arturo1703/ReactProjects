@@ -10,21 +10,21 @@ const data = [
     image: Image1,
     title: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I have an strong foundation on the Development of Android Applications",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I'm learning to develop Web Pages, focusing both in Fron and Back End",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Software Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I love to challenge myself to create and polish algorithms to minimize memory usage and duration",
   },
 ];
 
