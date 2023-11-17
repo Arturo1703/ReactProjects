@@ -28,7 +28,7 @@ const data = [
   },
 ];
 
-const Services = () => {
+const services = () => {
   return (
     <section className="service container section">
       <h2 className="section__titles">Services</h2>
@@ -48,4 +48,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default services;

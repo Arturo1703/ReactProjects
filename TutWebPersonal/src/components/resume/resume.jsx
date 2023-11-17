@@ -6,7 +6,6 @@ import Data from "./Data";
 const resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h1>Hello</h1>
       <h2 className="section__title">Education</h2>
 
       <div className="resume__container grid">

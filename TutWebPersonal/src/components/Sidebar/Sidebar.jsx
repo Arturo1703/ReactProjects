@@ -23,7 +23,7 @@ const Sidebar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">
+              <a href="#Services" className="nav__link">
                 <i className="icon-briefcase" />
               </a>
             </li>
@@ -35,12 +35,6 @@ const Sidebar = () => {
             <li className="nav__item">
               <a href="#portfolio" className="nav__link">
                 <i className="icon-layers" />
-              </a>
-            </li>
-
-            <li className="nav__item">
-              <a href="#blog" className="nav__link">
-                <i className="icon-note" />
               </a>
             </li>
             <li className="nav__item">
