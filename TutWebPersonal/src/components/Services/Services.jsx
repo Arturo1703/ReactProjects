@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Mobile App Development",
     description:
       "I have an strong foundation on the Development of Android Applications",
   },
@@ -30,7 +30,7 @@ const data = [
 
 const services = () => {
   return (
-    <section className="service container section">
+    <section className="service container section" id="services">
       <h2 className="section__titles">Services</h2>
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {

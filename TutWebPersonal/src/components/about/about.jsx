@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
+import DownloadButton from "./DownloadButton";
 
 const about = () => {
   return (
@@ -18,9 +19,7 @@ const about = () => {
               ability, communication skills and vast knowledge of digital
               systems.
             </p>
-            <a href="" className="btn">
-              Download CV
-            </a>
+            <DownloadButton />
           </div>
 
           <div className="about__skills grid">

@@ -10,30 +10,45 @@ const portfolio = () => {
     setItems(updateItems);
   };
   return (
-    <section className="work container section" id="work">
+    <section className="work_container section" id="portfolio">
       <h2 className="section__title"> Recent Works</h2>
 
       <div className="work__filters">
-        <span className="work__item" onClick={() => setItems(Menu)}>
+        <span
+          className="work__items__everything"
+          onClick={() => setItems(Menu)}
+        >
           Everything
         </span>
-        <span className="work__item" onClick={() => filterItem("Mobile App Development")}>
+        <span
+          className="work__items__mobile"
+          onClick={() => filterItem("Mobile App Development")}
+        >
           Mobile App Development
         </span>
-        <span className="work__item" onClick={() => filterItem("Web Development")}>
+        <span
+          className="work__items__web"
+          onClick={() => filterItem("Web Development")}
+        >
           Web Development
         </span>
-        <span className="work__item" onClick={() => filterItem("Algorithm solving/ Software Development")}>
+        <span
+          className="work__items__algorithm"
+          onClick={() => filterItem("Algorithm solving/ Software Development")}
+        >
           Algorithm solving/ Software Development
         </span>
-        <span className="work__item" onClick={() => filterItem("Videogames")}>
+        <span
+          className="work__items__videogames"
+          onClick={() => filterItem("Videogames")}
+        >
           Videogames
         </span>
       </div>
 
       <div className="work__container grid">
         {items.map((elem) => {
-          const { id, image, title, category } = elem;
+          const { id, image, title, category, link } = elem;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -43,8 +58,8 @@ const portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
-                <i className="icon-link eork__button-icon"></i>
+              <a href={link} className="work__button">
+                <i className="icon-link work__button-icon"></i>
               </a>
             </div>
           );

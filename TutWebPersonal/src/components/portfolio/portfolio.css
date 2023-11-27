@@ -5,13 +5,13 @@
     margin-bottom: 2.5rem;
 }
 
-.work__item{
+.work__items{
     cursor: pointer;
     font-weight: var(--font-bold);
     transition: .3s;
 }
 
-.work__item:hover{
+.work__items:hover{
     color: var(--first-color);
 }
 
